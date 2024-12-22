@@ -1,7 +1,7 @@
 const { connect, connection } = require('mongoose');
 
 module.exports = class Database {
-  connectToMongo(mongoURI) {
+  connectToMongo("رابط المونجو تاعك") {
     connect(mongoURI, {
       keepAlive: true,
     }).then(() => {
