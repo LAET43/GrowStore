@@ -10,4 +10,5 @@ eventListener(client);
 
 client.commands = new Collection();
 
-client.login(process.env.BOT_TOKEN);
+client.login("توكنك");
+// تروح فولدر #db وملف Connect.... وخلي رابط المونجو تاعك
